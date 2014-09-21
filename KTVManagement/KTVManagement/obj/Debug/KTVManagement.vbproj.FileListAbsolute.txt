@@ -1,0 +1,183 @@
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\bin\Debug\KTVManagement.exe.config
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\Interop.AXVLC.dll
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\AxInterop.AXVLC.dll
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.vbproj.ResolveComReference.cache
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\bin\Debug\KTVManagement.exe.manifest
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\bin\Debug\KTVManagement.application
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\bin\Debug\KTVManagement.exe
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\bin\Debug\KTVManagement.pdb
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\bin\Debug\KTVManagement.xml
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\bin\Debug\DataLayer.dll
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\bin\Debug\MySql.Data.Entity.EF5.dll
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\bin\Debug\DataLayer.pdb
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\bin\Debug\DataLayer.xml
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\bin\Debug\Interop.AXVLC.dll
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\bin\Debug\AxInterop.AXVLC.dll
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.vbprojResolveAssemblyReference.cache
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddCategory.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateCategory.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmMainStaff.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAboutus.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmCheckInGuest.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmGuestHistory.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmRoomList.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmGuest.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSongMain.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddLanguage.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmLanguage.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateLanguage.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddProduction.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmProduction.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateProduction.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmGuestInvoice.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddRoom.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmCategoryInformation.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmLogin.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmMainAdmin.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmPlaySong.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmRoom.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSingerInformation.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddSinger.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSinger.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateSinger.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddSong.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSong.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSongInformation.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSongLists.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSplashScreen.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateRoom.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUserInformation.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.Resources.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateSong.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddUser.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdaterUser.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUser.resources
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.vbproj.GenerateResource.Cache
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\RdlCompile.cache
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\RdlCompile.compiled
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.exe.manifest
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.application
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.exe
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.xml
+C:\Users\DARA PENHCHET\Desktop\KTV_11_09_2014\KTVManagement\KTVManagement\obj\Debug\KTVManagement.pdb
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\bin\Debug\KTVManagement.exe.config
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\bin\Debug\KTVManagement.exe.manifest
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\bin\Debug\KTVManagement.application
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\bin\Debug\KTVManagement.exe
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\bin\Debug\KTVManagement.pdb
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\bin\Debug\KTVManagement.xml
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\bin\Debug\DataLayer.dll
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\bin\Debug\DataLayer.pdb
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\bin\Debug\DataLayer.xml
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\bin\Debug\Interop.AXVLC.dll
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\bin\Debug\AxInterop.AXVLC.dll
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.vbprojResolveAssemblyReference.cache
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\Interop.AXVLC.dll
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\AxInterop.AXVLC.dll
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.vbproj.ResolveComReference.cache
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddCategory.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateCategory.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAboutus.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmCheckIn.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmCheckInGuest.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmGuestHistory.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmRoomList.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmGuest.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSongMain.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddLanguage.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmLanguage.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateLanguage.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddProduction.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmProduction.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateProduction.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmGuestInvoice.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.Room.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddRoom.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmCategoryInformation.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmLogin.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmMainAdmin.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmPlaySong.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmRoom.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddSinger.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSinger.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateSinger.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddSong.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSong.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSongInformation.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSongLists.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSplashScreen.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateRoom.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.Resources.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateSong.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddUser.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdaterUser.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUser.resources
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.vbproj.GenerateResource.Cache
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\RdlCompile.cache
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\RdlCompile.compiled
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.exe.manifest
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.application
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.exe
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.xml
+F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.pdb
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\KTVManagement.exe.config
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\Interop.AXVLC.dll
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\AxInterop.AXVLC.dll
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.vbproj.ResolveComReference.cache
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.exe
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.xml
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.pdb
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\KTVManagement.exe.manifest
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\KTVManagement.application
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\KTVManagement.exe
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\KTVManagement.pdb
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\KTVManagement.xml
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\DataLayer.dll
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\DataLayer.pdb
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\DataLayer.xml
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\Interop.AXVLC.dll
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\AxInterop.AXVLC.dll
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.vbprojResolveAssemblyReference.cache
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddCategory.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateCategory.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAboutus.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmCheckIn.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmCheckInGuest.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmGuestHistory.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmRoomList.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmGuest.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSongMain.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddLanguage.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmLanguage.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateLanguage.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddProduction.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmProduction.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateProduction.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmGuestInvoice.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.Room.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddRoom.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmCategoryInformation.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmLogin.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmMainAdmin.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmPlaySong.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmRoom.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddSinger.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSinger.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateSinger.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddSong.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSong.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSongInformation.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSongLists.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmSplashScreen.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateRoom.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.Resources.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateSong.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddUser.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdaterUser.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUser.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.vbproj.GenerateResource.Cache
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\RdlCompile.cache
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\RdlCompile.compiled
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.exe.manifest
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.application

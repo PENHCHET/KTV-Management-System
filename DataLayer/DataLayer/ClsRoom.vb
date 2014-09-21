@@ -1,0 +1,69 @@
+﻿Public Class ClsRoom
+
+    Private _ID As Integer
+    Private _RoomName As String
+    Private _RoomType As String
+    Private _Price As Double
+    Private _Discount As Integer
+    Private _Status As Boolean
+
+    Public Property ID As Integer
+        Get
+            Return _ID
+        End Get
+        Set(value As Integer)
+            _ID = value
+        End Set
+    End Property
+
+    Public Property RoomName As String
+        Get
+            Return _RoomName
+        End Get
+        Set(value As String)
+            _RoomName = value
+        End Set
+    End Property
+
+    Public Property RoomType As String
+        Get
+            Return _RoomType
+        End Get
+        Set(value As String)
+            _RoomType = value
+        End Set
+    End Property
+
+    Public Property Price As Double
+        Get
+            Return _Price
+        End Get
+        Set(value As Double)
+            _Price = value
+        End Set
+    End Property
+
+    Public Property Discount As Integer
+        Get
+            Return _Discount
+        End Get
+        Set(value As Integer)
+            If value < 0 Or value > 100 Then
+                MsgBox("Discount is count less than 0 or greater than 100")
+            Else
+                _Discount = value
+            End If
+
+        End Set
+    End Property
+
+    Public Property Status As Boolean
+        Get
+            Return _Status
+        End Get
+        Set(value As Boolean)
+            _Status = value
+        End Set
+    End Property
+End Class
+

@@ -1,0 +1,54 @@
+﻿Public Class frmAddSinger
+
+    Private singerTransaction As New DataLayer.ClsSingerTransaction
+    Private Photo As Byte()
+
+    Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
+        If addNew = True Then
+            frmAddSong.Show()
+            addNew = False
+        End If
+        Me.Close()
+    End Sub
+
+    Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        Try
+            Dim singer As New DataLayer.ClsSinger
+            singer.Name = txtSingerName.Text
+            singer.Gender = cboGender.SelectedItem.ToString
+            singer.Photo = getMemoryStream(pbPhoto)
+            singer.Nationality = txtNationality.Text
+            If singerTransaction.addNewsinger(singer) = True Then
+                Message.Visible = True
+                If addNew = True Then
+                    Dim dsSinger As New DataSet
+                    dsSinger = singerTransaction.getAllSingers
+                    AddDataIntoComboBox(frmAddSong.cboSinger, dsSinger)
+                End If
+            Else
+                Message.Visible = True
+                Message.Text = "Inserting is failure!!!"
+                Message.ForeColor = Color.Red
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
+
+    Private Sub pbPhoto_Click(sender As Object, e As EventArgs) Handles pbPhoto.Click
+        If OpenPhoto.ShowDialog() <> Windows.Forms.DialogResult.Cancel Then
+            pbPhoto.Image = Image.FromFile(OpenPhoto.FileName)
+            Photo = getMemoryStream(pbPhoto)
+        End If
+    End Sub
+
+    Private Sub btnSingerList_Click(sender As Object, e As EventArgs) Handles btnSingerList.Click
+        frmSinger.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub frmAddSinger_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Panel1.Left = (Me.Width - Panel1.Width) / 2
+        Panel1.Top = (Me.Height - Panel1.Height) / 2
+    End Sub
+End Class
