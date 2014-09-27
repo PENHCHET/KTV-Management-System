@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9A17D8A2-B84F-4423-9D43-6AF28EE633A2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>KTV_Management_GUEST.My.MyApplication</StartupObject>
+    <RootNamespace>KTV_Management_GUEST</RootNamespace>
+    <AssemblyName>KTV_Management_GUEST</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>KTV_Management_GUEST.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>KTV_Management_GUEST.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=11.2.0.1, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04" />
+    <Reference Include="DevComponents.DotNetBar2, Version=11.2.0.1, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04" />
+    <Reference Include="DevComponents.Instrumentation, Version=11.2.0.1, Culture=neutral, PublicKeyToken=f90dc37c26666a67" />
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.8.3\Assemblies\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF5, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.8.3\Assemblies\v4.5\MySql.Data.Entity.EF5.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.8.3\Assemblies\v4.5\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.8.3\Assemblies\v4.5\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmSangSong.Designer.vb">
+      <DependentUpon>FrmSangSong.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSangSong.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHandwriting.Designer.vb">
+      <DependentUpon>FrmHandwriting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHandwriting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTopHits.Designer.vb">
+      <DependentUpon>FrmTopHits.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTopHits.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProduction.Designer.vb">
+      <DependentUpon>FrmProduction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProduction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCategory.Designer.vb">
+      <DependentUpon>FrmCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectedSong.Designer.vb">
+      <DependentUpon>FrmSelectedSong.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectedSong.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CopyFrmSinger.Designer.vb">
+      <DependentUpon>CopyFrmSinger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CopyFrmSinger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CopyFrmSong.Designer.vb">
+      <DependentUpon>CopyFrmSong.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CopyFrmSong.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFixed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFixed.Designer.vb">
+      <DependentUpon>FrmFixed.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.vb">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSinger.Designer.vb">
+      <DependentUpon>FrmSinger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSinger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSong.Designer.vb">
+      <DependentUpon>FrmSong.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSong.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdGeneral.vb" />
+    <Compile Include="mdVaraible.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmSangSong.resx">
+      <DependentUpon>FrmSangSong.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHandwriting.resx">
+      <DependentUpon>FrmHandwriting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTopHits.resx">
+      <DependentUpon>FrmTopHits.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProduction.resx">
+      <DependentUpon>FrmProduction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCategory.resx">
+      <DependentUpon>FrmCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectedSong.resx">
+      <DependentUpon>FrmSelectedSong.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyFrmSinger.resx">
+      <DependentUpon>CopyFrmSinger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyFrmSong.resx">
+      <DependentUpon>CopyFrmSong.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFixed.resx">
+      <DependentUpon>FrmFixed.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSinger.resx">
+      <DependentUpon>FrmSinger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSong.resx">
+      <DependentUpon>FrmSong.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGShowMenuBottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGHideMenuBottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGMenuBottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtMain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtVocal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtPlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtNext.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtReplay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtForward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtLanguage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtVolDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtVolUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtApplaud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtSungList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtSelectedList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtPause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtVocal_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtVolOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtVolOff_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vocal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\replay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voloff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voldown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applaud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\screen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunglist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selectedlist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PClearBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGSinger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgNext.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ktv-management\DataLayer\DataLayer\DataLayer.vbproj">
+      <Project>{aa5a1df8-6af9-4dab-b28c-48dac00e8288}</Project>
+      <Name>DataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxAXVLC">
+      <Guid>{DF2BBE39-40A8-433B-A279-073F48DA94B6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AXVLC">
+      <Guid>{DF2BBE39-40A8-433B-A279-073F48DA94B6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Applause.mp3" />
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
