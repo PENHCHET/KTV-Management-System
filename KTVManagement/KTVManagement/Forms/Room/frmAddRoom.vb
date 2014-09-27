@@ -21,6 +21,11 @@
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        If txtDiscount.Text = "" Or txtName.Text = "" Or txtUnitPrice.Text = "" Or cboType.Text = "" Then
+            MessageBox.Show("You must fill all the information!!!")
+            Exit Sub
+        End If
+
         Try
             Dim roomTransaction As New DataLayer.ClsRoomTransaction
             Dim room As New DataLayer.ClsRoom
@@ -43,5 +48,20 @@
     Private Sub frmAddRoom_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Panel1.Left = (Me.Width - Panel1.Width) / 2
         Panel1.Top = (Me.Height - Panel1.Height) / 2
+        txtName.Focus()
+    End Sub
+
+    Private Sub txtUnitPrice_MouseUp(sender As Object, e As MouseEventArgs) Handles txtUnitPrice.MouseUp, txtUnitPrice.GotFocus, txtDiscount.MouseUp, txtDiscount.GotFocus
+        txtUnitPrice.SelectionStart = 0
+        txtUnitPrice.SelectionLength = txtUnitPrice.Text.Length
+    End Sub
+
+    Private Sub txtUnitPrice_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtUnitPrice.KeyPress, txtDiscount.KeyPress
+        If Char.IsControl(e.KeyChar) Then Exit Sub
+
+        If Not Char.IsDigit(e.KeyChar) Then
+            e.Handled = True
+            MessageBox.Show("You must enter only the number!!!")
+        End If
     End Sub
 End Class

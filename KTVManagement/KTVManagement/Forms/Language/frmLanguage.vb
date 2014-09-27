@@ -45,17 +45,9 @@ Public Class frmLanguage
             frmUpdateLanguage.Show()
             frmUpdateLanguage.txtID.Text = dgvLanguageList.CurrentRow.Cells(0).Value
             frmUpdateLanguage.txtLanguage.Text = dgvLanguageList.CurrentRow.Cells(1).Value
-            If dgvLanguageList.CurrentRow.Cells(2).Value Is DBNull.Value Then
-                frmUpdateProduction.pbPhoto.Image = My.Resources.Photo
-            Else
-                Dim imageData As Byte() = CType(dgvLanguageList.CurrentRow.Cells(2).Value, Byte())
-                If Not imageData Is Nothing Then
-                    Dim ms As New MemoryStream(imageData)
-                    frmUpdateProduction.pbPhoto.Image = Image.FromStream(ms)
-                End If
-            End If
             Me.Close()
         Catch ex As Exception
+            MessageBox.Show(ex.Message)
         End Try
 
     End Sub

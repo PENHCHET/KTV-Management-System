@@ -36,7 +36,6 @@ Partial Class frmAddUser
         Me.success = New System.Windows.Forms.Label()
         Me.btnSave = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.cboPosition = New System.Windows.Forms.ComboBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -46,6 +45,7 @@ Partial Class frmAddUser
         Me.txtID = New System.Windows.Forms.TextBox()
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
+        Me.cboPosition = New System.Windows.Forms.ComboBox()
         Me.OpenPhoto = New System.Windows.Forms.OpenFileDialog()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -183,6 +183,7 @@ Partial Class frmAddUser
         Me.pbPhoto.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.pbPhoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.pbPhoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pbPhoto.Image = Global.KTVManagement.My.Resources.Resources.Picture
         Me.pbPhoto.Location = New System.Drawing.Point(783, 55)
         Me.pbPhoto.Name = "pbPhoto"
         Me.pbPhoto.Size = New System.Drawing.Size(150, 165)
@@ -245,17 +246,6 @@ Partial Class frmAddUser
         Me.Label7.Size = New System.Drawing.Size(253, 23)
         Me.Label7.TabIndex = 13
         Me.Label7.Text = "Add New User Information:"
-        '
-        'cboPosition
-        '
-        Me.cboPosition.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.cboPosition.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cboPosition.FormattingEnabled = True
-        Me.cboPosition.Items.AddRange(New Object() {"Administrator", "Staff"})
-        Me.cboPosition.Location = New System.Drawing.Point(386, 270)
-        Me.cboPosition.Name = "cboPosition"
-        Me.cboPosition.Size = New System.Drawing.Size(300, 29)
-        Me.cboPosition.TabIndex = 3
         '
         'Label5
         '
@@ -354,6 +344,18 @@ Partial Class frmAddUser
         Me.LineShape1.X2 = 1001
         Me.LineShape1.Y1 = 46
         Me.LineShape1.Y2 = 46
+        '
+        'cboPosition
+        '
+        Me.cboPosition.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.cboPosition.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboPosition.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboPosition.FormattingEnabled = True
+        Me.cboPosition.Items.AddRange(New Object() {"Administrator", "Staff"})
+        Me.cboPosition.Location = New System.Drawing.Point(386, 270)
+        Me.cboPosition.Name = "cboPosition"
+        Me.cboPosition.Size = New System.Drawing.Size(300, 29)
+        Me.cboPosition.TabIndex = 3
         '
         'OpenPhoto
         '

@@ -24,7 +24,6 @@ Partial Class frmSongMain
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.btnBack = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel5 = New System.Windows.Forms.Panel()
@@ -35,10 +34,11 @@ Partial Class frmSongMain
         Me.btnCategory = New System.Windows.Forms.Button()
         Me.btnRoomList = New System.Windows.Forms.Button()
         Me.btnSong = New System.Windows.Forms.Button()
+        Me.btnBack = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
-        CType(Me.btnBack, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel4.SuspendLayout()
+        CType(Me.btnBack, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -63,17 +63,6 @@ Partial Class frmSongMain
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(1024, 60)
         Me.Panel2.TabIndex = 2
-        '
-        'btnBack
-        '
-        Me.btnBack.BackColor = System.Drawing.Color.White
-        Me.btnBack.BackgroundImage = Global.KTVManagement.My.Resources.Resources.arrow3
-        Me.btnBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnBack.Location = New System.Drawing.Point(6, 3)
-        Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(50, 50)
-        Me.btnBack.TabIndex = 1
-        Me.btnBack.TabStop = False
         '
         'Label1
         '
@@ -132,7 +121,7 @@ Partial Class frmSongMain
         Me.btnSinger.Location = New System.Drawing.Point(414, 212)
         Me.btnSinger.Name = "btnSinger"
         Me.btnSinger.Size = New System.Drawing.Size(200, 100)
-        Me.btnSinger.TabIndex = 8
+        Me.btnSinger.TabIndex = 4
         Me.btnSinger.Text = "&Singer"
         Me.btnSinger.UseVisualStyleBackColor = False
         '
@@ -150,7 +139,7 @@ Partial Class frmSongMain
         Me.btnLanguage.Location = New System.Drawing.Point(722, 106)
         Me.btnLanguage.Name = "btnLanguage"
         Me.btnLanguage.Size = New System.Drawing.Size(200, 100)
-        Me.btnLanguage.TabIndex = 7
+        Me.btnLanguage.TabIndex = 3
         Me.btnLanguage.Text = "&Language"
         Me.btnLanguage.UseVisualStyleBackColor = False
         '
@@ -168,7 +157,7 @@ Partial Class frmSongMain
         Me.btnProduction.Location = New System.Drawing.Point(516, 106)
         Me.btnProduction.Name = "btnProduction"
         Me.btnProduction.Size = New System.Drawing.Size(200, 100)
-        Me.btnProduction.TabIndex = 6
+        Me.btnProduction.TabIndex = 2
         Me.btnProduction.Text = "&Production"
         Me.btnProduction.UseVisualStyleBackColor = False
         '
@@ -186,7 +175,7 @@ Partial Class frmSongMain
         Me.btnCategory.Location = New System.Drawing.Point(310, 106)
         Me.btnCategory.Name = "btnCategory"
         Me.btnCategory.Size = New System.Drawing.Size(200, 100)
-        Me.btnCategory.TabIndex = 5
+        Me.btnCategory.TabIndex = 1
         Me.btnCategory.Text = "&Category"
         Me.btnCategory.UseVisualStyleBackColor = False
         '
@@ -223,9 +212,20 @@ Partial Class frmSongMain
         Me.btnSong.Location = New System.Drawing.Point(104, 106)
         Me.btnSong.Name = "btnSong"
         Me.btnSong.Size = New System.Drawing.Size(200, 100)
-        Me.btnSong.TabIndex = 2
+        Me.btnSong.TabIndex = 0
         Me.btnSong.Text = "&Song"
         Me.btnSong.UseVisualStyleBackColor = False
+        '
+        'btnBack
+        '
+        Me.btnBack.BackColor = System.Drawing.Color.White
+        Me.btnBack.BackgroundImage = Global.KTVManagement.My.Resources.Resources.arrow3
+        Me.btnBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnBack.Location = New System.Drawing.Point(6, 3)
+        Me.btnBack.Name = "btnBack"
+        Me.btnBack.Size = New System.Drawing.Size(50, 50)
+        Me.btnBack.TabIndex = 1
+        Me.btnBack.TabStop = False
         '
         'frmSongMain
         '
@@ -242,8 +242,8 @@ Partial Class frmSongMain
         Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        CType(Me.btnBack, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel4.ResumeLayout(False)
+        CType(Me.btnBack, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

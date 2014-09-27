@@ -39,6 +39,9 @@ Partial Class frmUpdateLanguage
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.OpenPhoto = New System.Windows.Forms.OpenFileDialog()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Message = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.btnBack, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -168,6 +171,9 @@ Partial Class frmUpdateLanguage
         'Panel4
         '
         Me.Panel4.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Panel4.Controls.Add(Me.Message)
+        Me.Panel4.Controls.Add(Me.Label3)
+        Me.Panel4.Controls.Add(Me.Label8)
         Me.Panel4.Controls.Add(Me.btnSave)
         Me.Panel4.Controls.Add(Me.Label7)
         Me.Panel4.Controls.Add(Me.txtLanguage)
@@ -253,6 +259,43 @@ Partial Class frmUpdateLanguage
         '
         Me.OpenPhoto.FileName = "OpenFileDialog1"
         '
+        'Label3
+        '
+        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(299, 204)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(94, 19)
+        Me.Label3.TabIndex = 44
+        Me.Label3.Text = "Language:"
+        '
+        'Label8
+        '
+        Me.Label8.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.Label8.Location = New System.Drawing.Point(365, 161)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(28, 19)
+        Me.Label8.TabIndex = 43
+        Me.Label8.Text = "ID:"
+        '
+        'Message
+        '
+        Me.Message.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Message.AutoSize = True
+        Me.Message.Font = New System.Drawing.Font("Century Gothic", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Message.ForeColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.Message.Location = New System.Drawing.Point(331, 64)
+        Me.Message.Name = "Message"
+        Me.Message.Size = New System.Drawing.Size(364, 23)
+        Me.Message.TabIndex = 49
+        Me.Message.Text = "You have been updated successfully!!!"
+        Me.Message.Visible = False
+        '
         'frmUpdateLanguage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -292,4 +335,7 @@ Partial Class frmUpdateLanguage
     Friend WithEvents txtLanguage As System.Windows.Forms.TextBox
     Friend WithEvents txtID As System.Windows.Forms.TextBox
     Friend WithEvents OpenPhoto As System.Windows.Forms.OpenFileDialog
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Message As System.Windows.Forms.Label
 End Class

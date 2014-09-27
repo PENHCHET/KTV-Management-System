@@ -55,6 +55,7 @@ Public Class frmUpdateSong
     End Sub
 
     Private Sub btnBrowse_Click(sender As Object, e As EventArgs) Handles btnBrowse.Click
+        OpenSong.Filter = "Video Files (*.avi, *.mpg, *.mpeg, *.mov, *.m4a, *.mp4, *.m4v, *.mp4v|*.avi;*.mpg;*.mpeg;*.mov;*.m4a;*.mp4;*.m4v;*.mp4v|All Files (*.*)|*.*"
         If OpenSong.ShowDialog = Windows.Forms.DialogResult.OK Then
             txtPath.Text = OpenSong.FileName
         End If
@@ -90,7 +91,8 @@ Public Class frmUpdateSong
                 singer.Name = singer.Name
                 song.Singers.Add(singer)
             Next
-            Dim Destination As String = "D:\KTV\" & song.Production.Production & "\" & song.Album
+            'Dim Destination As String = "D:\KTV\" & song.Production.Production & "\" & song.Album
+            Dim Destination As String = "\\197.7.7.7\d"
             Try
                 If Not Directory.Exists(Destination) Then
                     Directory.CreateDirectory(Destination)

@@ -44,7 +44,7 @@ Public Class frmProduction
             frmUpdateProduction.txtID.Text = dgvProductionList.CurrentRow.Cells(0).Value
             frmUpdateProduction.txtProduction.Text = dgvProductionList.CurrentRow.Cells(1).Value
             If dgvProductionList.CurrentRow.Cells(2).Value Is DBNull.Value Then
-                frmUpdateProduction.pbPhoto.Image = My.Resources.Photo
+                frmUpdateProduction.pbPhoto.Image = My.Resources.Picture
             Else
                 Dim imageData As Byte() = CType(dgvProductionList.CurrentRow.Cells(2).Value, Byte())
                 If Not imageData Is Nothing Then

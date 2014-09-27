@@ -3,6 +3,10 @@
     Private categoryTransaction As New DataLayer.ClsCategoryTransaction
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        If txtCategory.Text = "" Or txtDescription.Text = "" Then
+            MessageBox.Show("You must fill all the information")
+            Exit Sub
+        End If
         Dim category As New DataLayer.ClsCategory
         Try
             category.Category = txtCategory.Text
@@ -32,10 +36,10 @@
 
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         If addNew = True Then
-            addNew = False
             frmAddSong.Show()
-            Me.Close()
+            addNew = False
         End If
+        Me.Close()
     End Sub
 
     Private Sub frmAddCategory_Load(sender As Object, e As EventArgs) Handles MyBase.Load

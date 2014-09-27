@@ -122,12 +122,6 @@ F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\
 F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.xml
 F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\KTVManagement\KTVManagement\obj\Debug\KTVManagement.pdb
 C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\KTVManagement.exe.config
-C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\Interop.AXVLC.dll
-C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\AxInterop.AXVLC.dll
-C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.vbproj.ResolveComReference.cache
-C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.exe
-C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.xml
-C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.pdb
 C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\KTVManagement.exe.manifest
 C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\KTVManagement.application
 C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\KTVManagement.exe
@@ -139,6 +133,9 @@ C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\b
 C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\Interop.AXVLC.dll
 C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\bin\Debug\AxInterop.AXVLC.dll
 C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.vbprojResolveAssemblyReference.cache
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\Interop.AXVLC.dll
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\AxInterop.AXVLC.dll
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.vbproj.ResolveComReference.cache
 C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAddCategory.resources
 C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmUpdateCategory.resources
 C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.frmAboutus.resources
@@ -181,3 +178,7 @@ C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\o
 C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\RdlCompile.compiled
 C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.exe.manifest
 C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.application
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.exe
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.xml
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.pdb
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\KTVManagement\KTVManagement\obj\Debug\KTVManagement.CopySong.resources

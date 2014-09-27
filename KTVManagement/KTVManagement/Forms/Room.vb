@@ -6,7 +6,7 @@
     Public Property sRemaining As TimeSpan
     Public Property Room As New DataLayer.ClsRoom
 
-    Private Sub lblRoomID_Click(sender As Object, e As EventArgs) Handles lblRoomID.Click, lblRemaining.Click, lblTimeIn.Click, lblTimeOut.Click, Label1.Click, label111.Click, lable2.Click, Me.Click
+    Private Sub lblRoomID_Click(sender As Object, e As EventArgs) Handles Me.Click, lblRemaining.Click, lblRoomID.Click, lblTimeIn.Click, lblTimeOut.Click, Label1.Click, label111.Click, lable2.Click
         If bActive = False Then
             frmCheckIn.Show()
             frmCheckIn.txtRoomID.Text = Room.ID
@@ -14,6 +14,7 @@
             frmCheckIn.txtRoomType.Text = Room.RoomType
             frmCheckIn.txtPrice.Text = Room.Price
             frmCheckIn.txtDiscount.Text = Room.Discount
+            frmCheckIn.txtDuration.Focus()
         Else
             MessageBox.Show("This room has the guest already!!!")
         End If
@@ -47,4 +48,5 @@
             End If
         End If
     End Sub
+
 End Class

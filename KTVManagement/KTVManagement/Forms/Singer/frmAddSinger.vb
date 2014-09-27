@@ -12,6 +12,10 @@
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        If txtSingerName.Text = "" Or txtNationality.Text = "" Or cboGender.Text = "" Then
+            MessageBox.Show("You must fill all the information!!!")
+            Exit Sub
+        End If
         Try
             Dim singer As New DataLayer.ClsSinger
             singer.Name = txtSingerName.Text
@@ -50,5 +54,6 @@
     Private Sub frmAddSinger_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Panel1.Left = (Me.Width - Panel1.Width) / 2
         Panel1.Top = (Me.Height - Panel1.Height) / 2
+        txtSingerName.Focus()
     End Sub
 End Class

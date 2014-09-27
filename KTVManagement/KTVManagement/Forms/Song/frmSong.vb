@@ -67,5 +67,4 @@ Public Class frmSong
         vlc.playlist.play()
     End Sub
 
-
 End Class

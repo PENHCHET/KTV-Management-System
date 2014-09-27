@@ -40,6 +40,7 @@ Partial Class frmAddLanguage
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.OpenPhoto = New System.Windows.Forms.OpenFileDialog()
+        Me.Message = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.btnBack, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -150,6 +151,7 @@ Partial Class frmAddLanguage
         'Panel4
         '
         Me.Panel4.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Panel4.Controls.Add(Me.Message)
         Me.Panel4.Controls.Add(Me.btnSave)
         Me.Panel4.Controls.Add(Me.Label7)
         Me.Panel4.Controls.Add(Me.Label3)
@@ -177,7 +179,7 @@ Partial Class frmAddLanguage
         Me.btnSave.Location = New System.Drawing.Point(599, 292)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(100, 30)
-        Me.btnSave.TabIndex = 40
+        Me.btnSave.TabIndex = 2
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = False
         '
@@ -199,11 +201,11 @@ Partial Class frmAddLanguage
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(297, 204)
+        Me.Label3.Location = New System.Drawing.Point(299, 204)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(96, 19)
+        Me.Label3.Size = New System.Drawing.Size(94, 19)
         Me.Label3.TabIndex = 42
-        Me.Label3.Text = "Production:"
+        Me.Label3.Text = "Language:"
         '
         'txtLanguage
         '
@@ -212,7 +214,7 @@ Partial Class frmAddLanguage
         Me.txtLanguage.Location = New System.Drawing.Point(399, 200)
         Me.txtLanguage.Name = "txtLanguage"
         Me.txtLanguage.Size = New System.Drawing.Size(300, 27)
-        Me.txtLanguage.TabIndex = 41
+        Me.txtLanguage.TabIndex = 1
         '
         'Label8
         '
@@ -234,7 +236,7 @@ Partial Class frmAddLanguage
         Me.txtID.Name = "txtID"
         Me.txtID.ReadOnly = True
         Me.txtID.Size = New System.Drawing.Size(300, 27)
-        Me.txtID.TabIndex = 38
+        Me.txtID.TabIndex = 0
         Me.txtID.Text = "Auto Number"
         '
         'ShapeContainer1
@@ -260,6 +262,19 @@ Partial Class frmAddLanguage
         'OpenPhoto
         '
         Me.OpenPhoto.FileName = "OpenFileDialog1"
+        '
+        'Message
+        '
+        Me.Message.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Message.AutoSize = True
+        Me.Message.Font = New System.Drawing.Font("Century Gothic", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Message.ForeColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.Message.Location = New System.Drawing.Point(343, 65)
+        Me.Message.Name = "Message"
+        Me.Message.Size = New System.Drawing.Size(356, 23)
+        Me.Message.TabIndex = 44
+        Me.Message.Text = "You have been inserted successfully!!!"
+        Me.Message.Visible = False
         '
         'frmAddLanguage
         '
@@ -301,4 +316,5 @@ Partial Class frmAddLanguage
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents txtID As System.Windows.Forms.TextBox
     Friend WithEvents OpenPhoto As System.Windows.Forms.OpenFileDialog
+    Friend WithEvents Message As System.Windows.Forms.Label
 End Class

@@ -203,6 +203,7 @@ Partial Class frmUpdaterUser
         Me.pbPhoto.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.pbPhoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.pbPhoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pbPhoto.Image = Global.KTVManagement.My.Resources.Resources.Picture
         Me.pbPhoto.Location = New System.Drawing.Point(783, 55)
         Me.pbPhoto.Name = "pbPhoto"
         Me.pbPhoto.Size = New System.Drawing.Size(150, 165)
@@ -269,6 +270,7 @@ Partial Class frmUpdaterUser
         'cboPosition
         '
         Me.cboPosition.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.cboPosition.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboPosition.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboPosition.FormattingEnabled = True
         Me.cboPosition.Items.AddRange(New Object() {"Administrator", "Staff"})

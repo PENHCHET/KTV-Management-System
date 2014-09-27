@@ -74,7 +74,7 @@ Partial Class frmUpdateRoom
         Me.btnSave.Location = New System.Drawing.Point(586, 377)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(100, 30)
-        Me.btnSave.TabIndex = 3
+        Me.btnSave.TabIndex = 6
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = False
         '
@@ -146,6 +146,7 @@ Partial Class frmUpdateRoom
         'cboStatus
         '
         Me.cboStatus.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.cboStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboStatus.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboStatus.FormattingEnabled = True
         Me.cboStatus.Items.AddRange(New Object() {"FREE", "BUSY"})

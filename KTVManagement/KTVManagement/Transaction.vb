@@ -66,4 +66,14 @@
         panel.Top = (form.Height - panel.Height) / 2
     End Sub
 
+
+    Public Sub CheckEmpty(Frm As Form)
+        Dim textBoxes = Frm.Controls.OfType(Of TextBox)()
+
+        For Each txtBox In textBoxes
+            If String.IsNullOrEmpty(txtBox.Text) Then
+
+            End If
+        Next
+    End Sub
 End Module

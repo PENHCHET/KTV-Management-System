@@ -16,6 +16,7 @@ Public Class frmAddSong
     Private dsCategory As New DataSet
     Private dsLanguage As New DataSet
     Private dsSinger As New DataSet
+    Private currentRow As New Integer
 
     Private bLoad As Boolean = False
 
@@ -33,8 +34,12 @@ Public Class frmAddSong
     End Sub
 
     Private Sub btnBrowse_Click(sender As Object, e As EventArgs) Handles btnBrowse.Click
+        OpenSong.Filter = "Video Files (*.avi, *.mpg, *.mpeg, *.mov, *.m4a, *.mp4, *.m4v, *.mp4v|*.avi;*.mpg;*.mpeg;*.mov;*.m4a;*.mp4;*.m4v;*.mp4v|All Files (*.*)|*.*"
         If OpenSong.ShowDialog = Windows.Forms.DialogResult.OK Then
-            txtPath.Text = OpenSong.FileName
+            Paths = OpenSong.FileNames
+            For Each file As String In Paths
+                dgvSongList.Rows.Add(Path.GetFileNameWithoutExtension(file), "", "", "", "", "", file)
+            Next
         End If
     End Sub
 
@@ -50,6 +55,10 @@ Public Class frmAddSong
 
     Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
         Try
+            If txtTitle.Text = "" Or txtAlbum.Text = "" Or txtPath.Text = "" Or cboCategory.Text = "" Or cboLanguage.Text = "" Or cboProduction.Text = "" Or lstSingers.Items.Count = 0 Then
+                MessageBox.Show("Please fill all the information about this song!!!")
+                Exit Sub
+            End If
             song = New ClsSong
             song.Title = txtTitle.Text
             song.Album = txtAlbum.Text
@@ -57,26 +66,31 @@ Public Class frmAddSong
             song.Category = New ClsCategory(cboCategory.SelectedValue, cboCategory.Text)
             song.Language = New ClsLanguage(cboLanguage.SelectedValue, cboLanguage.Text)
             song.Path = txtPath.Text
-            'Dim Destination As String = "\\197.7.7.7\\" & song.Production.Production & " \ " & song.Album
-            Dim Destination As String = "\\197.7.7.7\d"
+            'Dim Destination As String = "\\197.7.7.7\d\KTV\" & song.Production.Production & " \ " & song.Album
+            ''Dim Destination As String = "\\197.7.7.7\d"
 
-            Try
-                If Not Directory.Exists(Destination) Then
-                    Directory.CreateDirectory(Destination)
-                End If
-                Dim file = New FileInfo(song.Path)
-                song.Path = Path.Combine(Destination, file.Name)
-                file.CopyTo(song.Path, True)
-            Catch ex As Exception
-                MessageBox.Show(ex.Message)
-            End Try
+            'Try
+            '    If Not Directory.Exists(Destination) Then
+            '        Directory.CreateDirectory(Destination)
+            '    End If
+            '    Dim file = New FileInfo(song.Path)
+            '    song.Path = Path.Combine(Destination, file.Name)
+            '    file.CopyTo(song.Path, True)
+            'Catch ex As Exception
+            '    MessageBox.Show(ex.Message)
+            'End Try
             Dim strSingers As String = ""
             For Each singer As ClsSinger In lstSingers.Items
                 song.Singers.Add(singer)
                 strSingers = strSingers & singer.Name & ","
             Next
             songs.Add(song)
-            dgvSongList.Rows.Add(song.Title, song.Album, song.Category.Category, song.Production.Production, song.Language.Language, strSingers.Substring(0, strSingers.Length() - 1), song.Path)
+            Try
+                dgvSongList.Rows(currentRow).SetValues(song.Title, song.Album, song.Production.Production, song.Category.Category, song.Language.Language, strSingers.Substring(0, strSingers.Length() - 1), song.Path)
+            Catch ex As Exception
+                MessageBox.Show(ex.Message)
+            End Try
+
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         End Try
@@ -100,24 +114,54 @@ Public Class frmAddSong
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
-        MessageBox.Show("SAVE ALL")
         Try
+            Dim Destination As String = ""
+            For row As Integer = 0 To dgvSongList.Rows.Count - 1
+                If IsDBNull(dgvSongList.Rows(row).Cells(0).Value = "") Or IsDBNull(dgvSongList.Rows(row).Cells(1).Value = "") _
+                    Or (dgvSongList.Rows(row).Cells(2).Value = "") Or IsDBNull(dgvSongList.Rows(row).Cells(3).Value = "") _
+                    Or IsDBNull(dgvSongList.Rows(row).Cells(4).Value = "") Or IsDBNull(dgvSongList.Rows(row).Cells(5).Value = "") _
+                    Or IsDBNull(dgvSongList.Rows(row).Cells(6).Value = "") Then
+                    MessageBox.Show("Please try to fill all the information about the song")
+                    Exit Sub
+                End If
+            Next
             For Each song As ClsSong In songs
-                MessageBox.Show("SAVE ALL SONG")
-                MessageBox.Show(song.Language.ID)
+                'MessageBox.Show("SAVE ALL SONG")
+                'MessageBox.Show(song.Language.ID)
+                Destination = "\\197.7.7.7\d\KTV\" & song.Production.Production & "\" & song.Album
+                Try
+                    If Not Directory.Exists(Destination) Then
+                        Directory.CreateDirectory(Destination)
+                    End If
+                    Dim file = New FileInfo(song.Path)
+                    song.Path = Path.Combine(Destination, file.Name)
+                    file.CopyTo(song.Path, True)
+                Catch ex As Exception
+                    MessageBox.Show(ex.Message)
+                End Try
                 If songTransaction.addNewSong(song) = True Then
-                    MessageBox.Show("Song has been inserted!!! " & song.ID)
+                    'MessageBox.Show("Song has been inserted!!! " & song.ID)
                     For Each singer As ClsSinger In song.Singers
-                        MessageBox.Show("SAVE ALL SONGDETAILS")
+                        'MessageBox.Show("SAVE ALL SONGDETAILS")
                         songDetails.SingerID = singer.ID
                         songDetails.SongID = song.ID
                         If songDetailsTransaction.addNewSongDetails(songDetails) = True Then
-                            MessageBox.Show("SongDetails has been inserted!!!")
+                            'MessageBox.Show("SongDetails has been inserted!!!")
                         End If
                     Next
                 End If
             Next
+            MessageBox.Show("Song has been inserted successfully!!!!!!!")
             dgvSongList.Rows.Clear()
+            txtID.Text = ""
+            txtTitle.Text = ""
+            txtAlbum.Text = ""
+            cboProduction.Text = ""
+            cboCategory.Text = ""
+            cboLanguage.Text = ""
+            cboSinger.Text = ""
+            lstSingers.Items.Clear()
+            txtPath.Text = ""
             songs = New List(Of ClsSong)
         Catch ex As Exception
             MessageBox.Show(ex.Message)
@@ -190,7 +234,69 @@ Public Class frmAddSong
         End If
     End Sub
 
-    Private Sub Panel4_Paint(sender As Object, e As PaintEventArgs) Handles Panel4.Paint
+    Private Sub txtPath_DoubleClick(sender As Object, e As EventArgs) Handles txtPath.DoubleClick
+        Try
+            If dgvSongList.Rows.Count = 0 Then
+                Exit Sub
+            End If
+            OpenSingleSong.Filter = "Video Files (*.avi, *.mpg, *.mpeg, *.mov, *.m4a, *.mp4, *.m4v, *.mp4v|*.avi;*.mpg;*.mpeg;*.mov;*.m4a;*.mp4;*.m4v;*.mp4v|All Files (*.*)|*.*"
+            If OpenSingleSong.ShowDialog = Windows.Forms.DialogResult.OK Then
+                txtPath.Text = OpenSingleSong.FileName
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub
 
+    Private Sub dgvSongList_CellDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvSongList.CellDoubleClick
+        Try
+            currentRow = dgvSongList.CurrentRow.Index
+            txtID.Text = "Auto Number"
+
+            If dgvSongList.CurrentRow.Cells("Title").Value <> "" Then
+                txtTitle.Text = dgvSongList.CurrentRow.Cells("Title").Value
+            End If
+
+            If dgvSongList.CurrentRow.Cells("Album").Value <> "" Then
+                txtAlbum.Text = dgvSongList.CurrentRow.Cells("Album").Value
+            End If
+
+            If dgvSongList.CurrentRow.Cells("Production").Value <> "" Then
+                cboProduction.Text = dgvSongList.CurrentRow.Cells("Production").Value
+            End If
+
+            If dgvSongList.CurrentRow.Cells("Category").Value <> "" Then
+                cboCategory.Text = dgvSongList.CurrentRow.Cells("Category").Value
+            End If
+
+            If dgvSongList.CurrentRow.Cells("Language").Value <> "" Then
+                cboLanguage.Text = dgvSongList.CurrentRow.Cells("Language").Value
+            End If
+
+            Try
+                If Not dgvSongList.CurrentRow.Cells("Singer").Value = Nothing Then
+                    lstSingers.Items.Clear()
+                    For Each singer As String In GetStrSingers(dgvSongList.CurrentRow.Cells("Singer").Value)
+                        Dim objSinger As New ClsSinger
+                        objSinger = singerTransaction.getSingerBySingerName(singer)
+                        lstSingers.Items.Add(objSinger)
+                    Next
+                End If
+            Catch ex As Exception
+            End Try
+            txtPath.Text = dgvSongList.CurrentRow.Cells("CPath").Value
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+        
+    End Sub
+
+    Private Sub txtAlbum_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtAlbum.KeyPress
+
+        If Char.IsControl(e.KeyChar) Then Exit Sub
+
+        If Not Char.IsDigit(e.KeyChar) Then
+            e.Handled = True
+        End If
     End Sub
 End Class

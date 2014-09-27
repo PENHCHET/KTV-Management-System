@@ -31,6 +31,8 @@ Partial Class frmAddSinger
         Me.btnAddRoom = New System.Windows.Forms.Button()
         Me.btnSingerList = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.txtNationality = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.cboGender = New System.Windows.Forms.ComboBox()
         Me.pbPhoto = New System.Windows.Forms.PictureBox()
         Me.Message = New System.Windows.Forms.Label()
@@ -44,8 +46,6 @@ Partial Class frmAddSinger
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.OpenPhoto = New System.Windows.Forms.OpenFileDialog()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.txtNationality = New System.Windows.Forms.TextBox()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.btnBack, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -176,22 +176,45 @@ Partial Class frmAddSinger
         Me.Panel4.Size = New System.Drawing.Size(1007, 490)
         Me.Panel4.TabIndex = 4
         '
+        'txtNationality
+        '
+        Me.txtNationality.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.txtNationality.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNationality.Location = New System.Drawing.Point(397, 278)
+        Me.txtNationality.Name = "txtNationality"
+        Me.txtNationality.Size = New System.Drawing.Size(300, 27)
+        Me.txtNationality.TabIndex = 3
+        '
+        'Label2
+        '
+        Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(287, 282)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(96, 19)
+        Me.Label2.TabIndex = 32
+        Me.Label2.Text = "Nationality:"
+        '
         'cboGender
         '
         Me.cboGender.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.cboGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboGender.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboGender.FormattingEnabled = True
         Me.cboGender.Items.AddRange(New Object() {"Female", "Male"})
         Me.cboGender.Location = New System.Drawing.Point(397, 235)
         Me.cboGender.Name = "cboGender"
         Me.cboGender.Size = New System.Drawing.Size(300, 29)
-        Me.cboGender.TabIndex = 31
+        Me.cboGender.TabIndex = 2
         '
         'pbPhoto
         '
         Me.pbPhoto.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.pbPhoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.pbPhoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pbPhoto.Image = Global.KTVManagement.My.Resources.Resources.Picture
         Me.pbPhoto.Location = New System.Drawing.Point(783, 55)
         Me.pbPhoto.Name = "pbPhoto"
         Me.pbPhoto.Size = New System.Drawing.Size(150, 165)
@@ -226,7 +249,7 @@ Partial Class frmAddSinger
         Me.btnSave.Location = New System.Drawing.Point(597, 313)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(100, 30)
-        Me.btnSave.TabIndex = 16
+        Me.btnSave.TabIndex = 5
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = False
         '
@@ -273,7 +296,7 @@ Partial Class frmAddSinger
         Me.txtSingerName.Location = New System.Drawing.Point(397, 193)
         Me.txtSingerName.Name = "txtSingerName"
         Me.txtSingerName.Size = New System.Drawing.Size(300, 27)
-        Me.txtSingerName.TabIndex = 17
+        Me.txtSingerName.TabIndex = 1
         '
         'Label8
         '
@@ -295,7 +318,7 @@ Partial Class frmAddSinger
         Me.txtID.Name = "txtID"
         Me.txtID.ReadOnly = True
         Me.txtID.Size = New System.Drawing.Size(300, 27)
-        Me.txtID.TabIndex = 14
+        Me.txtID.TabIndex = 0
         Me.txtID.Text = "Auto Number"
         '
         'ShapeContainer1
@@ -305,7 +328,7 @@ Partial Class frmAddSinger
         Me.ShapeContainer1.Name = "ShapeContainer1"
         Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape1})
         Me.ShapeContainer1.Size = New System.Drawing.Size(1007, 490)
-        Me.ShapeContainer1.TabIndex = 3
+        Me.ShapeContainer1.TabIndex = 4
         Me.ShapeContainer1.TabStop = False
         '
         'LineShape1
@@ -317,27 +340,6 @@ Partial Class frmAddSinger
         Me.LineShape1.X2 = 1001
         Me.LineShape1.Y1 = 46
         Me.LineShape1.Y2 = 46
-        '
-        'Label2
-        '
-        Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(4, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(80, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(287, 282)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(96, 19)
-        Me.Label2.TabIndex = 32
-        Me.Label2.Text = "Nationality:"
-        '
-        'txtNationality
-        '
-        Me.txtNationality.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.txtNationality.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNationality.Location = New System.Drawing.Point(397, 278)
-        Me.txtNationality.Name = "txtNationality"
-        Me.txtNationality.Size = New System.Drawing.Size(300, 27)
-        Me.txtNationality.TabIndex = 34
         '
         'frmAddSinger
         '

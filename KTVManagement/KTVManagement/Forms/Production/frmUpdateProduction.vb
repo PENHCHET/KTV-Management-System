@@ -20,6 +20,10 @@
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        If txtProduction.Text = "" Then
+            MessageBox.Show("You must fill all the information!!!")
+            Exit Sub
+        End If
         Try
             Dim production As New DataLayer.ClsProduction
             production.ID = CInt(txtID.Text)

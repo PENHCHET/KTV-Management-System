@@ -267,7 +267,7 @@ Partial Class frmUpdateSong
         Me.btnRemove.Location = New System.Drawing.Point(662, 119)
         Me.btnRemove.Name = "btnRemove"
         Me.btnRemove.Size = New System.Drawing.Size(94, 30)
-        Me.btnRemove.TabIndex = 33
+        Me.btnRemove.TabIndex = 8
         Me.btnRemove.Text = "Remove"
         Me.btnRemove.UseVisualStyleBackColor = False
         '
@@ -278,7 +278,7 @@ Partial Class frmUpdateSong
         Me.txtAlbum.Location = New System.Drawing.Point(130, 221)
         Me.txtAlbum.Name = "txtAlbum"
         Me.txtAlbum.Size = New System.Drawing.Size(300, 27)
-        Me.txtAlbum.TabIndex = 28
+        Me.txtAlbum.TabIndex = 2
         '
         'cboLanguage
         '
@@ -289,7 +289,7 @@ Partial Class frmUpdateSong
         Me.cboLanguage.Location = New System.Drawing.Point(130, 326)
         Me.cboLanguage.Name = "cboLanguage"
         Me.cboLanguage.Size = New System.Drawing.Size(300, 29)
-        Me.cboLanguage.TabIndex = 27
+        Me.cboLanguage.TabIndex = 5
         '
         'Label10
         '
@@ -317,7 +317,7 @@ Partial Class frmUpdateSong
         Me.btnSingerOff.Location = New System.Drawing.Point(898, 284)
         Me.btnSingerOff.Name = "btnSingerOff"
         Me.btnSingerOff.Size = New System.Drawing.Size(100, 30)
-        Me.btnSingerOff.TabIndex = 25
+        Me.btnSingerOff.TabIndex = 12
         Me.btnSingerOff.Text = "Singer Off"
         Me.btnSingerOff.UseVisualStyleBackColor = False
         '
@@ -335,7 +335,7 @@ Partial Class frmUpdateSong
         Me.btnFullScreen.Location = New System.Drawing.Point(792, 284)
         Me.btnFullScreen.Name = "btnFullScreen"
         Me.btnFullScreen.Size = New System.Drawing.Size(100, 30)
-        Me.btnFullScreen.TabIndex = 24
+        Me.btnFullScreen.TabIndex = 11
         Me.btnFullScreen.Text = "Full Screen"
         Me.btnFullScreen.UseVisualStyleBackColor = False
         '
@@ -353,7 +353,7 @@ Partial Class frmUpdateSong
         Me.btnPlay.Location = New System.Drawing.Point(686, 284)
         Me.btnPlay.Name = "btnPlay"
         Me.btnPlay.Size = New System.Drawing.Size(100, 30)
-        Me.btnPlay.TabIndex = 23
+        Me.btnPlay.TabIndex = 10
         Me.btnPlay.Text = "Play"
         Me.btnPlay.UseVisualStyleBackColor = False
         '
@@ -364,7 +364,7 @@ Partial Class frmUpdateSong
         Me.vlc.Location = New System.Drawing.Point(771, 59)
         Me.vlc.Name = "vlc"
         Me.vlc.OcxState = CType(resources.GetObject("vlc.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.vlc.Size = New System.Drawing.Size(226, 211)
+        Me.vlc.Size = New System.Drawing.Size(226, 212)
         Me.vlc.TabIndex = 22
         '
         'btnBrowse
@@ -381,7 +381,7 @@ Partial Class frmUpdateSong
         Me.btnBrowse.Location = New System.Drawing.Point(898, 325)
         Me.btnBrowse.Name = "btnBrowse"
         Me.btnBrowse.Size = New System.Drawing.Size(100, 30)
-        Me.btnBrowse.TabIndex = 21
+        Me.btnBrowse.TabIndex = 9
         Me.btnBrowse.Text = "Browse"
         Me.btnBrowse.UseVisualStyleBackColor = False
         '
@@ -405,7 +405,7 @@ Partial Class frmUpdateSong
         Me.txtPath.Name = "txtPath"
         Me.txtPath.ReadOnly = True
         Me.txtPath.Size = New System.Drawing.Size(359, 27)
-        Me.txtPath.TabIndex = 19
+        Me.txtPath.TabIndex = 9
         '
         'lstSingers
         '
@@ -415,7 +415,7 @@ Partial Class frmUpdateSong
         Me.lstSingers.Location = New System.Drawing.Point(528, 183)
         Me.lstSingers.Name = "lstSingers"
         Me.lstSingers.Size = New System.Drawing.Size(228, 88)
-        Me.lstSingers.TabIndex = 18
+        Me.lstSingers.TabIndex = 7
         '
         'cboSinger
         '
@@ -426,7 +426,7 @@ Partial Class frmUpdateSong
         Me.cboSinger.Location = New System.Drawing.Point(528, 155)
         Me.cboSinger.Name = "cboSinger"
         Me.cboSinger.Size = New System.Drawing.Size(228, 29)
-        Me.cboSinger.TabIndex = 17
+        Me.cboSinger.TabIndex = 6
         '
         'Label8
         '
@@ -449,7 +449,7 @@ Partial Class frmUpdateSong
         Me.cboCategory.Location = New System.Drawing.Point(130, 291)
         Me.cboCategory.Name = "cboCategory"
         Me.cboCategory.Size = New System.Drawing.Size(300, 29)
-        Me.cboCategory.TabIndex = 15
+        Me.cboCategory.TabIndex = 4
         '
         'cboProduction
         '
@@ -460,7 +460,7 @@ Partial Class frmUpdateSong
         Me.cboProduction.Location = New System.Drawing.Point(130, 256)
         Me.cboProduction.Name = "cboProduction"
         Me.cboProduction.Size = New System.Drawing.Size(300, 29)
-        Me.cboProduction.TabIndex = 14
+        Me.cboProduction.TabIndex = 3
         '
         'btnSave
         '
@@ -547,7 +547,7 @@ Partial Class frmUpdateSong
         Me.txtTitle.Location = New System.Drawing.Point(130, 188)
         Me.txtTitle.Name = "txtTitle"
         Me.txtTitle.Size = New System.Drawing.Size(300, 27)
-        Me.txtTitle.TabIndex = 4
+        Me.txtTitle.TabIndex = 1
         '
         'Label2
         '
@@ -569,7 +569,7 @@ Partial Class frmUpdateSong
         Me.txtID.Name = "txtID"
         Me.txtID.ReadOnly = True
         Me.txtID.Size = New System.Drawing.Size(300, 27)
-        Me.txtID.TabIndex = 1
+        Me.txtID.TabIndex = 0
         '
         'ShapeContainer1
         '

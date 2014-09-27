@@ -3,6 +3,10 @@
     Private categoryTransaction As New DataLayer.ClsCategoryTransaction
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        If txtCategory.Text = "" Or txtDescription.Text = "" Then
+            MessageBox.Show("You must fill all the information")
+            Exit Sub
+        End If
         Dim category As New DataLayer.ClsCategory
         Try
             category.ID = txtID.Text

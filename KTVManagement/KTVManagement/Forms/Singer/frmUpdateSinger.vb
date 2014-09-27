@@ -22,6 +22,10 @@
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        If txtSingerName.Text = "" Or txtNationality.Text = "" Or cboGender.Text = "" Then
+            MessageBox.Show("You must fill all the information!!!")
+            Exit Sub
+        End If
         Try
             Dim singer As New DataLayer.ClsSinger
             singer.ID = CInt(txtID.Text)

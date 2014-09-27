@@ -24,6 +24,10 @@
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        If txtPassword.Text = "" Or txtUsername.Text = "" Or cboPosition.Text = "" Then
+            MessageBox.Show("You must fill all the information!!!")
+            Exit Sub
+        End If
         Try
             Dim user As New DataLayer.ClsUser
             Dim userTransaction As New DataLayer.ClsUserTransaction

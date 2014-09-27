@@ -27,6 +27,10 @@ KTVManagement
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:KTVManagement.My.Resources.Resources.Picture">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="T:KTVManagement.My.Resources.Resources">
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
