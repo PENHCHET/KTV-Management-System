@@ -74,4 +74,56 @@ Public Class ClsSongDetailsTransaction
             Return Nothing
         End Try
     End Function
+
+    Public Function getAllSongTitleStartWith(title As String, singer As String) As DataSet
+        Try
+            Using Command As MySqlCommand = ClsConnection.Con.CreateCommand
+                Command.CommandText = "	SELECT songs.songid AS ID ,songs.title AS Title ,songs.album AS Album,categories.category AS Category," & _
+                                      " productions.production AS Production,languages.`language` AS Language,GROUP_CONCAT(singerName) As singer,songs.path AS Path " & _
+                                      " FROM singers " & _
+                                      " INNER JOIN songdetails ON singers.singerId = songdetails.singerId " & _
+                                      " INNER JOIN songs ON songs.songid = songdetails.songId " & _
+                                      " INNER JOIN categories ON songs.categoryId = categories.categoryId " & _
+                                      " INNER JOIN productions ON songs.productionId = productions.productionId " & _
+                                      " INNER JOIN languages ON songs.languageId = languages.languageId " & _
+                                      " WHERE songs.title LIKE @Title " & _
+                                      " OR singers.singerName LIKE @Singer" & _
+                                      " GROUP BY songs.songId "
+                Command.Parameters.AddWithValue("@Title", "%" & title & "%")
+                Command.Parameters.AddWithValue("@Singer", "%" & singer & "%")
+                Using adt As MySqlDataAdapter = New MySqlDataAdapter(Command)
+                    adt.Fill(dsSongDetails)
+                End Using
+                Return dsSongDetails
+            End Using
+        Catch ex As Exception
+            MsgBox(ex.Message)
+            Return Nothing
+        End Try
+    End Function
+
+    Public Function getAllSongTitleStart(title As String) As DataSet
+        Try
+            Using Command As MySqlCommand = ClsConnection.Con.CreateCommand
+                Command.CommandText = "	SELECT songs.songid AS ID ,songs.title AS Title ,songs.album AS Album,categories.category AS Category," & _
+                                      " productions.production AS Production,languages.`language` AS Language,GROUP_CONCAT(singerName) As singer,songs.path AS Path " & _
+                                      " FROM singers " & _
+                                      " INNER JOIN songdetails ON singers.singerId = songdetails.singerId " & _
+                                      " INNER JOIN songs ON songs.songid = songdetails.songId " & _
+                                      " INNER JOIN categories ON songs.categoryId = categories.categoryId " & _
+                                      " INNER JOIN productions ON songs.productionId = productions.productionId " & _
+                                      " INNER JOIN languages ON songs.languageId = languages.languageId " & _
+                                      " WHERE songs.title LIKE @Title " & _
+                                      " GROUP BY songs.songId "
+                Command.Parameters.AddWithValue("@Title", "%" & title & "%")
+                Using adt As MySqlDataAdapter = New MySqlDataAdapter(Command)
+                    adt.Fill(dsSongDetails)
+                End Using
+                Return dsSongDetails
+            End Using
+        Catch ex As Exception
+            MsgBox(ex.Message)
+            Return Nothing
+        End Try
+    End Function
 End Class

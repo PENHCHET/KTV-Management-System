@@ -9,7 +9,9 @@
    
 
     Public Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+
         lbShowCurrentSongg.Text = MarqueeLeft(lbShowCurrentSongg.Text)
+
     End Sub
 
     Private Sub btHide_Click(sender As Object, e As EventArgs) Handles btHide.Click

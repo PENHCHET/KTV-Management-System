@@ -32,18 +32,26 @@ Public Class FrmTopHits
 
 
     Private Sub btToEng_Click_1(sender As Object, e As EventArgs) Handles Button9.Click, Button8.Click, Button7.Click, Button6.Click, Button5.Click, Button4.Click, Button31.Click, Button3.Click, Button26.Click, Button25.Click, Button24.Click, Button23.Click, Button22.Click, Button21.Click, Button20.Click, Button19.Click, Button18.Click, Button17.Click, Button16.Click, Button15.Click, Button14.Click, Button13.Click, Button12.Click, Button11.Click, Button10.Click, Button1.Click
-        PanelSong.Controls.Clear()
         ds.Tables(0).Rows.Clear()
         ds = daoSong.getAllSongTitleStart(sender.text)
-        getSongs()
+        If ds.Tables(0).Rows.Count > 0 Then
+            PanelSong.Controls.Clear()
+            getSongs()
+        Else
+            MsgBox("No song")
+        End If
     End Sub
 
 
     Private Sub Button28_Click(sender As Object, e As EventArgs) Handles Button73.Click, Button72.Click, Button71.Click, Button70.Click, Button68.Click, Button67.Click, Button66.Click, Button65.Click, Button64.Click, Button63.Click, Button62.Click, Button61.Click, Button60.Click, Button59.Click, Button58.Click, Button57.Click, Button56.Click, Button55.Click, Button54.Click, Button53.Click, Button52.Click, Button51.Click, Button50.Click, Button49.Click, Button48.Click, Button47.Click, Button46.Click, Button45.Click, Button44.Click, Button43.Click, Button42.Click, Button41.Click, Button40.Click, Button39.Click, Button38.Click, Button37.Click, Button36.Click, Button35.Click, Button34.Click, Button33.Click, Button32.Click, Button29.Click, Button28.Click, Button27.Click
-        PanelSong.Controls.Clear()
         ds.Tables(0).Rows.Clear()
         ds = daoSong.getAllSongTitleStart(sender.text)
-        getSongs()
+        If ds.Tables(0).Rows.Count > 0 Then
+            PanelSong.Controls.Clear()
+            getSongs()
+        Else
+            MsgBox("No song")
+        End If
     End Sub
 
 

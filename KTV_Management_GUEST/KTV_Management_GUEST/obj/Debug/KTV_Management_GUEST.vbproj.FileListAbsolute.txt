@@ -8,37 +8,6 @@ C:\Users\Tola\AppData\Local\Temporary Projects\KTV_Management_GUEST\obj\Debug\KT
 C:\Users\Tola\AppData\Local\Temporary Projects\KTV_Management_GUEST\bin\Debug\KTV_Management_GUEST.pdb
 C:\Users\Tola\AppData\Local\Temporary Projects\KTV_Management_GUEST\bin\Debug\KTV_Management_GUEST.xml
 C:\Users\Tola\AppData\Local\Temporary Projects\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.exe
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\KTV_Management_GUEST.exe.config
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\KTV_Management_GUEST.exe
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\KTV_Management_GUEST.pdb
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\KTV_Management_GUEST.xml
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\DataLayer.dll
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\MySql.Data.Entity.EF5.dll
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\MySql.Data.Entity.EF6.dll
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\DataLayer.pdb
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\DataLayer.xml
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\Interop.AXVLC.dll
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\AxInterop.AXVLC.dll
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.vbprojResolveAssemblyReference.cache
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\Interop.AXVLC.dll
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\AxInterop.AXVLC.dll
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.vbproj.ResolveComReference.cache
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmWriting.resources
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmTopHits.resources
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmProduction.resources
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmCategory.resources
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmSelectedSong.resources
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.CopyFrmSinger.resources
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.CopyFrmSong.resources
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmFixed.resources
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmMain.resources
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmSinger.resources
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmSong.resources
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.Resources.resources
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.vbproj.GenerateResource.Cache
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.exe
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.xml
-C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.pdb
 C:\Users\Tola\Desktop\KTV_Management_GUEST - Copy\KTV_Management_GUEST\bin\Debug\KTV_Management_GUEST.exe.config
 C:\Users\Tola\Desktop\KTV_Management_GUEST - Copy\KTV_Management_GUEST\obj\Debug\Interop.AXVLC.dll
 C:\Users\Tola\Desktop\KTV_Management_GUEST - Copy\KTV_Management_GUEST\obj\Debug\AxInterop.AXVLC.dll
@@ -71,4 +40,65 @@ C:\Users\Tola\Desktop\KTV_Management_GUEST - Copy\KTV_Management_GUEST\obj\Debug
 C:\Users\Tola\Desktop\KTV_Management_GUEST - Copy\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.Resources.resources
 C:\Users\Tola\Desktop\KTV_Management_GUEST - Copy\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.vbproj.GenerateResource.Cache
 C:\Users\Tola\Desktop\KTV_Management_GUEST - Copy\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmSangSong.resources
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\KTV_Management_GUEST.exe.config
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\KTV_Management_GUEST.exe
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\KTV_Management_GUEST.pdb
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\KTV_Management_GUEST.xml
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\DataLayer.dll
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\MySql.Data.Entity.EF5.dll
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\DataLayer.pdb
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\DataLayer.xml
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\Interop.AXVLC.dll
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\AxInterop.AXVLC.dll
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.vbprojResolveAssemblyReference.cache
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\Interop.AXVLC.dll
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\AxInterop.AXVLC.dll
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.vbproj.ResolveComReference.cache
 C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmSangSong.resources
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmWriting.resources
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmTopHits.resources
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmProduction.resources
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmCategory.resources
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmSelectedSong.resources
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.CopyFrmSinger.resources
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.CopyFrmSong.resources
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmFixed.resources
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmMain.resources
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmSinger.resources
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmSong.resources
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.Resources.resources
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.vbproj.GenerateResource.Cache
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.exe
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.xml
+C:\Users\Tola\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.pdb
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\KTV_Management_GUEST.exe.config
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\Interop.AXVLC.dll
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\AxInterop.AXVLC.dll
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.vbproj.ResolveComReference.cache
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.exe
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.xml
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.pdb
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.vbprojResolveAssemblyReference.cache
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmSangSong.resources
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmWriting.resources
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmTopHits.resources
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmProduction.resources
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmCategory.resources
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmSelectedSong.resources
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.CopyFrmSinger.resources
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.CopyFrmSong.resources
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmFixed.resources
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmMain.resources
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmSinger.resources
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.FrmSong.resources
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.Resources.resources
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\obj\Debug\KTV_Management_GUEST.vbproj.GenerateResource.Cache
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\KTV_Management_GUEST.exe
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\KTV_Management_GUEST.pdb
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\KTV_Management_GUEST.xml
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\DataLayer.dll
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\DataLayer.pdb
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\DataLayer.xml
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\Interop.AXVLC.dll
+C:\Users\DARAPENHCHET\Desktop\KTV_Management_GUEST\KTV_Management_GUEST\bin\Debug\AxInterop.AXVLC.dll

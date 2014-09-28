@@ -18,3 +18,12 @@ F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\DataLayer\DataLayer\obj\Debug\Da
 F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\DataLayer\DataLayer\obj\Debug\DataLayer.pdb
 F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\DataLayer\DataLayer\bin\Debug\DataLayer.dll.CodeAnalysisLog.xml
 F:\RUPP\E6YEAR4\OOAD\OOAD\KTV Management System\DataLayer\DataLayer\bin\Debug\DataLayer.dll.lastcodeanalysissucceeded
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\DataLayer\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\DataLayer\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\DataLayer\DataLayer\bin\Debug\DataLayer.xml
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\DataLayer\DataLayer\obj\Debug\DataLayer.Resources.resources
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\DataLayer\DataLayer\obj\Debug\DataLayer.vbproj.GenerateResource.Cache
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\DataLayer\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\DataLayer\DataLayer\obj\Debug\DataLayer.xml
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\DataLayer\DataLayer\obj\Debug\DataLayer.pdb
+C:\Users\DARAPENHCHET\Desktop\KTVMS\ktv-management\DataLayer\DataLayer\obj\Debug\DataLayer.vbprojResolveAssemblyReference.cache
